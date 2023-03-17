@@ -1,18 +1,65 @@
-.member {
-  border: 1px solid #000;
-  margin: 200px auto 0;
-  max-width: 400px;
-  display: flex;
+.membership-page {
+  height: 100vh; /* viewport height를 100%로 설정 */
+  width: 100%;
+  background: url("../image/membership_background.jpg");
+  background-size: cover;
+  background-position: center; /* 이미지를 중앙에 위치시킴 */
+  background-repeat: no-repeat; /* 이미지를 반복하지 않음 */
+}
+.membership_form {
+  display: block;
   flex-direction: column;
   align-items: center;
+  margin: auto;
   padding: 20px;
-  box-sizing: border-box;
-}
-.member input {
   width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  font-size: 15px;
-  border: 1px solid #000;
-  box-sizing: border-box;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.membership_form h1 {
+  margin-top: 4.4vh;
+  margin-right: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Palatino Linotype";
+
+  color: #111;
+}
+
+.membership_form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.membership_form input {
+  width: 20%;
+  padding: 10px;
+  margin: 0 auto 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.membership_form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.membership_form button:hover {
+  background-color: #555;
+}
+.NavMenu {
+  font-size: 16px;
 }

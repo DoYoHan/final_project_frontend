@@ -9,6 +9,9 @@ export default function Header() {
   function goMypage() {
     movePage("/mypage");
   }
+  function goMembership() {
+    movePage("/membership");
+  }
   function goBoard() {
     movePage("/Board");
   }
@@ -23,6 +26,9 @@ export default function Header() {
       <div>
         <nav className="NavMenu">
           <Login />
+          <button onClick={goMembership} className="NavMenuTitle">
+            회원가입
+          </button>
           <button onClick={goMypage} className="NavMenuTitle">
             마이페이지 이동
           </button>
