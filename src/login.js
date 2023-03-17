@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import "./css/login.css";
 import axios from "axios";
-import Naver from "./naver";
+
 Modal.setAppElement("#root");
 
 export default function Login() {
@@ -92,6 +92,12 @@ export default function Login() {
           <Naver />
         </form>
       </Modal>
+      <button
+        onClick={() => (window.location.href = "/MemberShip")}
+        className="NavMenuTitle"
+      >
+        회원가입
+      </button>
     </div>
   );
 }

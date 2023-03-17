@@ -54,10 +54,10 @@
   border-radius: 20%;
 }
 
-.profile_author > img {
+.profile_author > div > img {
   /* 마이페이지 작가소개 사진 css <bio.js> */
   border-radius: 20%;
-  width: 400px;
+  width: 500px;
 }
 
 .profile_author > p {
@@ -65,4 +65,17 @@
   margin-left: 400px;
   margin-right: 400px;
   display: block;
+}
+
+#BioEditTextarea {
+  width: 100%;
+  height: 6.25em;
+  border: none;
+  resize: none;
+  text-align: center;
+  overflow-x: hidden;
+  margin: 20px;
+}
+#BioEditDiv {
+  margin: 10px;
 }

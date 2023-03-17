@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../css/HelpHeader.css";
 import Login from "../../login";
+import banner from "../../image/HelpHeaderBanner01.jpg";
 
 export default function HelpHeader() {
   const movePage = useNavigate();
@@ -24,8 +25,8 @@ export default function HelpHeader() {
   function goPageFAQ() {
     movePage("/FAQ");
   }
-  function goPageAdvice() {
-    movePage("/Advice");
+  function goPageCommunication() {
+    movePage("/Communication");
   }
   return (
     <>
@@ -37,7 +38,7 @@ export default function HelpHeader() {
         <nav className="NavMenu">
           <Login />
           <button onClick={goMypage} className="NavMenuTitle">
-            마이페이지 이동
+            마이페이지
           </button>
           <button onClick={goBoard} className="NavMenuTitle">
             고객지원
@@ -48,19 +49,24 @@ export default function HelpHeader() {
         </nav>
         <br />
       </div>
+      <br />
+      {/* 고객지원 배너 이미지 */}
+      <div id="HelpHeaderBanner">
+        <img src={banner} alt="banner" id="HelpHeaderBannerImg" />
+      </div>
       {/* 고객지원 내용 */}
       <div id="HelpHeaderMenuSection">
-        <hr />
         <span onClick={goPageBoard} id="HelpHeaderMenu">
           게시판
         </span>
         <span onClick={goPageFAQ} id="HelpHeaderMenu">
           FAQ
         </span>
-        <span onClick={goPageAdvice} id="HelpHeaderMenu">
-          1:1 문의
+        <span onClick={goPageCommunication} id="HelpHeaderMenu">
+          문의
         </span>
         <hr />
+        <br />
       </div>
     </>
   );

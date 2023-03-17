@@ -21,6 +21,7 @@
   font-size: 50px;
   font-weight: bold;
   font-family: "Palatino Linotype";
+  cursor: pointer;
 }
 #SubHeaderLayout {
   margin-bottom: 100px;
