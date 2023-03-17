@@ -89,7 +89,6 @@ export default function Login() {
           >
             회원가입
           </button>
-          <Naver />
         </form>
       </Modal>
       <button
