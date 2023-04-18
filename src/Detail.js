@@ -1,6 +1,6 @@
 import React from "react";
-import Post from "./components/Post";
-import PostSide from "./components/PostSide";
+import Post from "./components/Detail/Post";
+import PostSide from "./components/Detail/PostSide";
 import Header from "./components/Layout/postHeader";
 import { useLocation } from "react-router-dom";
 import "./css/Detail.css";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import { addAnnouncement } from "../utils/api";
-import "../css/Announcement_Modal.css";
+import { addAnnouncement } from "../../utils/api";
+import "../../css/Announcement_Modal.css";
 Modal.setAppElement("#root");
 
 function Announcement_Modal() {

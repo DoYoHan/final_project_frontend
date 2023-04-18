@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid, CardActionArea } from "@mui/material";
-import "../css/Bookmark.css";
+import "../../css/Bookmark.css";
 import axios from "axios";
 
 export default function Bookmark({userEmail}) {

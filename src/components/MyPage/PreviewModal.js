@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import "../css/Preview.css";
+import "../../css/Preview.css";
 
 Modal.setAppElement("#root");
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AccountDelete from "./AccountDelete";
 import Announcement from "./Announcement";
-import AdminChart from "./Charts/AdminChart.js";
+import AdminChart from "../Charts/AdminChart";
 import { Layout, Menu } from "antd";
 import {
   BarChartOutlined,
@@ -10,7 +10,7 @@ import {
   SoundOutlined,
   RollbackOutlined,
 } from "@ant-design/icons";
-import "../css/adminGoBackButton.css";
+import "../../css/adminGoBackButton.css";
 import axios from "axios";
 
 const { Header, Content, Sider } = Layout;

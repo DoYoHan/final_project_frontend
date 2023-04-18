@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import MpImgSliderGuest from "./components/MpImgSliderGuest";
+import MpImgSliderGuest from "./components/MyPage/MpImgSliderGuest";
 import MypageBio from "./components/MyPage/Bio";
 import MypageDashboard from "./components/MyPage/Dashboard";
-import Bookmark from "./components/Bookmark";
+import Bookmark from "./components/MyPage/Bookmark";
 import Login from "./login";
 import Footer from "./components/Layout/footer";
-import FollowBut from "./components/FollowBut";
+import FollowBut from "./components/MyPage/FollowBut";
 import "./css/mypage.css";
 import "./css/MyPageHeader.css";
 import axios from "axios";

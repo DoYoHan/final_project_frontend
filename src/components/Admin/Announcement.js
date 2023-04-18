@@ -1,7 +1,7 @@
-import BoardList from "./Help/Board/BoardList";
+import BoardList from "../Help/Board/BoardList";
 import { useState, useEffect } from "react";
-import BoardPagination from "./Help/Board/BoardPagination";
-import { getAnnouncements, deleteAnnouncement } from "../utils/api";
+import BoardPagination from "../Help/Board/BoardPagination";
+import { getAnnouncements, deleteAnnouncement } from "../../utils/api";
 import Announcement_Modal from "./Announcement_Modal";
 
 export default function Announcement() {

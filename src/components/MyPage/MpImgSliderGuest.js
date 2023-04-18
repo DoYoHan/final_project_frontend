@@ -12,7 +12,7 @@ import "swiper/css/thumbs";
 import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import "swiper/css/mousewheel";
-import "../css/MypageSlider.css";
+import "../../css/MypageSlider.css";
 
 export default function MpImgSliderGuest({ userEmail, location }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);

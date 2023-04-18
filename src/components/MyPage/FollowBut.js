@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { RiCheckFill } from "react-icons/ri";
 import { TbPlus } from "react-icons/tb";
-import "../css/Bookmark.css";
+import "../../css/Bookmark.css";
 
 function FollowBut({ userEmail }) {
   const [isFollowed, setIsFollowed] = useState(false);

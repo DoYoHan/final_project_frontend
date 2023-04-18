@@ -4,10 +4,10 @@ import Membership from "./membership";
 import Detail from "./Detail";
 import Mypage from "./mypage";
 import MypageGuest from "./mypageGuest ";
-import Admin from "./components/Admin";
+import Admin from "./components/Admin/Admin";
 import HelpUser from "./HelpUser";
 import BoardDetail from "./components/Help/Board/BoardDetail";
-import Bookmark from "./components/Bookmark";
+import Bookmark from "./components/MyPage/Bookmark";
 
 export default function App() {
   return (

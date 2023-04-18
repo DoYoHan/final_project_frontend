@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import MypageImgslider from "./components/MypageImgslider";
+import MypageImgslider from "./components/MyPage/MypageImgslider";
 import MypageBio from "./components/MyPage/Bio";
 import MypageDashboard from "./components/MyPage/Dashboard";
-import Bookmark from "./components/Bookmark";
+import Bookmark from "./components/MyPage/Bookmark";
 import Login from "./login";
 import Footer from "./components/Layout/footer";
 import "./css/mypage.css";
